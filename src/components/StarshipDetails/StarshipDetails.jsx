@@ -5,7 +5,7 @@ import { getStarshipDetails } from "../../services/sw-api"
 
 import Loading from "../Loading/Loading"
 
-const StarshipDetails = ({starships}) => {
+const StarshipDetails = () => {
   const [selectedStarship, setSelectedStarship] = useState({})
   const [selectedPilots, setSelectedPilots] = useState([])
   let pilotURLs = []

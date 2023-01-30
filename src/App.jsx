@@ -29,7 +29,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/starships">
               <Route index element={<Starships starships={starships} />} />
-              <Route path=":starshipId" element={<StarshipDetails starships={starships}/>}  />
+              <Route path=":starshipId" element={<StarshipDetails />}  />
             </Route>
           </Routes>
         </>
